@@ -147,28 +147,56 @@ nav {
   height: 100%;
 }
 /*=====================================*/
-#fact-container {
+#blog-container {
   background: #3c9b61;
   color: white;
   padding: 2rem;
 }
-#fact-container > h1 {
+#blog-container > h1 {
   text-align: center;
   border-bottom: solid #fff6 1px;
   width: 80%;
   margin: auto;
   margin-bottom: 2em;
 }
-#fact-container > p {
-  max-width: 1000px;
-  margin: auto;
-  font-size: 1.5rem;
-  color: #001e01e6;
-  text-align: center;
-  line-height: 2.5rem;
+#blog-container > div {
+	display: flex;
+	max-width: 85rem;
+	margin: auto;
 }
-
-
+#blog-container > a {
+	width: 250px;
+	display: inherit;
+	text-align: center;
+	margin: 1em auto;
+	font-size: 2em;
+	border-radius: 10px;
+	background: #fffc;
+	color: #13311b;
+}
+.post-container {
+	padding: 1em;
+	background: #ffffff1a;
+	margin: 0.5em;
+	color: #041402cc;
+}
+.post-container > h6{
+  line-height: 0.8em;
+}
+.post-container > p{
+  margin: 2.5em 0;
+}
+.post-container > a:first-of-type{
+  color: #041402cc;
+}
+.post-container > a:last-of-type{
+	border: solid #fff3 1px;
+	padding: 5px;
+	border-radius: 5px;
+}
+.post-container > a:last-of-type:hover{
+background: #ffffff1a;
+}
 /*==================================*/
 footer {
 	background: black;
