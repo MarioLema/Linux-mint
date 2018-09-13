@@ -10,91 +10,7 @@ a {
   text-decoration: none;
   color: white;
 }
-nav {
-  height: 500px;
-  background: linear-gradient(to top, #6fe76f, #1a3309);
-  position: relative;
-  min-height: 33rem;
-}
-#nav-menu-wrapper {
-  height: 80px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem 0 1rem 1rem;
-  max-width: 70rem;
-  margin: auto;
-}
-#logo-container {
-  background: url(images/redesign-logo-text1.svg) no-repeat;
-  height: 100%;
-  width: 100%;
-  background-size: contain;
-}
-#nav-main-menu {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none;
-}
-#nav-main-menu > li > a:hover {
-  color: #86be38;
-}
-#nav-main-menu > li:nth-of-type(2) {
-  background: #72be64;
-  padding: 5px 10px;
-  border-radius: 5px;
-}
-#nav-main-menu > li:nth-of-type(2):hover {
-  background: #58994c;
-}
-#nav-main-menu > li:nth-of-type(2) > a:hover {
-  color: white;
-}
-#page-header {
-  color: white;
-  font-family: "Roboto", sans-serif;
-  padding: 1rem;
-  width: 50%;
-}
-#page-header > h1 {
-  font-size: 3em;
-  font-weight: 600;
-}
-#page-header > h5 {
-  margin-bottom: 2em;
-}
-#page-header > p {
-  color: #ffffffb3;
-  max-width: 75%;
-}
-#leafs-decoration {
-  background: url(images/leafs-border.svg) no-repeat;
-  width: 50%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background-size: contain;
-  background-position-x: left;
-  background-position-y: bottom;
-}
-#header-container {
-  position: relative;
-  display: flex;
-  height: 75%;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 70rem;
-  margin: auto;
-}
-#media {
-  width: 400px;
-  height: 250px;
-  background: #4a3e3e;
-}
+
 /*========================================================*/
 #about-container {
   max-width: 70rem;
@@ -172,13 +88,13 @@ nav {
 	font-size: 2em;
 	border-radius: 10px;
 	background: #fffc;
-	color: #13311b;
+	color: #214a21;
 }
 .post-container {
 	padding: 1em;
 	background: #ffffff1a;
 	margin: 0.5em;
-	color: #041402cc;
+	color: #214a21;
 }
 .post-container > h6{
   line-height: 0.8em;
@@ -187,7 +103,7 @@ nav {
   margin: 2.5em 0;
 }
 .post-container > a:first-of-type{
-  color: #041402cc;
+  color: #214a21;
 }
 .post-container > a:last-of-type{
 	border: solid #fff3 1px;
@@ -198,34 +114,3 @@ nav {
 background: #ffffff1a;
 }
 /*==================================*/
-footer {
-	background: black;
-	color: white;
-	font-size: 0.7em;
-	display: flex;
-	padding: 2em;
-	align-content: center;
-	align-items: center;
-	justify-content: space-around;
-	line-height: 2em;
-}
-footer > div{
-  padding: 1em;
-}
-.social-icon {
-	width: 1.5em;
-	margin: 0.5em;
-}
-#social-container > p {
-	font-size: 1.5em;
-  margin-bottom: 1em;
-  text-align: center;
-}
-#footer-logo {
-	width: 5rem;
-	height: 5rem;
-	background: url(images/redesign-logo1.svg) no-repeat;
-	padding: 0;
-	background-size: contain;
-	background-position: center;
-}

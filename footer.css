@@ -1,0 +1,31 @@
+footer {
+	background: black;
+	color: white;
+	font-size: 0.7em;
+	display: flex;
+	padding: 2em;
+	align-content: center;
+	align-items: center;
+	justify-content: space-around;
+	line-height: 2em;
+}
+footer > div{
+  padding: 1em;
+}
+.social-icon {
+	width: 1.5em;
+	margin: 0.5em;
+}
+#social-container > p {
+	font-size: 1.5em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+#footer-logo {
+	width: 5rem;
+	height: 5rem;
+	background: url(images/redesign-logo1.svg) no-repeat;
+	padding: 0;
+	background-size: contain;
+	background-position: center;
+}
