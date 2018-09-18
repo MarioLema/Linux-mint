@@ -70,6 +70,10 @@ a {
 	color: #72be64;
 	font-family: "Montserrat", sans-serif;
 }
+#guides-container {
+	background: url(images/background-logo.svg) no-repeat;
+	background-position: center;
+}
 
 #user-guides-container {
 	display: grid;
