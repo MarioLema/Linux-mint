@@ -111,6 +111,8 @@
 .green-section{
 	background: #3c9b61;
 	color: white;
+	font-family: "Montserrat";
+	padding: 2em;
 }
 .contact{
 	max-width: 70rem;
@@ -133,4 +135,39 @@
 .contact > div > h2 {
 	text-align: center;
 	margin: 0.5em;
+}
+
+.green-section > h1 {
+	text-align: center;
+	border-bottom: solid #fff6 1px;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 1em;
+}
+
+.green-section > p {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 2em;
+}
+
+table {
+	margin: auto;
+	border-collapse: collapse;
+}
+
+td {
+	border-bottom: 1px solid #ffffff4d;
+	padding: 1em;
+}
+
+.download-button-cindy {
+	color: white;
+	border-radius: 5px;
+	background: none;
+	margin: 1em;
+	padding: 7px 15px;
+	font-size: 1em;
+	border: solid #fff6 1px;
 }
