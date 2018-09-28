@@ -47,7 +47,7 @@ a {
   color: #214a21cc;
 }
 
-.download-button {
+/* .download-button {
   color: white;
   border-radius: 5px;
   background: #72be64;
@@ -55,11 +55,11 @@ a {
   padding: 7px 15px;
   font-size: 1em;
   border: none;
-}
-.download-icon {
+} */
+/* .download-icon {
   height: 15px;
   margin-right: 1em;
-}
+} */
 #cindy-desktop-box {
   background: #72be64;
   border: none;
@@ -67,15 +67,6 @@ a {
 }
 #cindy-desktop-box > p {
   color: #ffffffb3;
-}
-.download-button-cindy {
-  color: white;
-  border-radius: 5px;
-  background: none;
-  margin: 1em;
-  padding: 7px 15px;
-  font-size: 1em;
-  border: solid #fff6 1px;
 }
 /*=========================================*/
 #all-versions-table-wrapper {

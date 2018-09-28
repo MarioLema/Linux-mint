@@ -105,12 +105,12 @@ a {
 .post-container > a:first-of-type{
   color: #214a21;
 }
-.post-container > a:last-of-type{
+/* .post-container > a:last-of-type{
 	border: solid #fff3 1px;
 	padding: 5px;
 	border-radius: 5px;
 }
 .post-container > a:last-of-type:hover{
 background: #ffffff1a;
-}
+} */
 /*==================================*/

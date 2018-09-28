@@ -1,18 +1,4 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
-  }
-  body {
-    background-color: white;
-    font-family: "Mukta", "Liberation Sans", verdana, arial, helvetica, sans-serif;
-  }
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  #world-image {
-      width: 50%;
-  }
+
   .section-container{
       padding: 1em;
   }
@@ -56,15 +42,6 @@
 	padding: 1em;
 	color: #72be64;
 	font-family: "Montserrat", sans-serif;
-}
-.green-link {
-	color: white;
-	border-radius: 5px;
-	background: #72be64;
-	margin: 1em;
-	padding: 7px 15px;
-	font-size: 1em;
-	border: none;
 }
 
 .clear-grid-box{
@@ -160,14 +137,4 @@ table {
 td {
 	border-bottom: 1px solid #ffffff4d;
 	padding: 1em;
-}
-
-.download-button-cindy {
-	color: white;
-	border-radius: 5px;
-	background: none;
-	margin: 1em;
-	padding: 7px 15px;
-	font-size: 1em;
-	border: solid #fff6 1px;
 }

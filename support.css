@@ -86,9 +86,61 @@
     padding-bottom: 1em;
     text-align: center;
 }
-.clear-green-button {
+/* .clear-green-button {
 	color: #214a21;
 	border: solid #214a2166 1px;
 	padding: 5px 10px;
 	border-radius: 5px;
+} */
+
+.green-section-container {
+	background: #3c9b61;
+	color: white;
+	padding: 2rem;
+}
+.green-section-container > h1 {
+	text-align: center;
+	border-bottom: solid #fff6 1px;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 2em;
+}
+.green-section-container > div {
+	max-width: 70rem;
+	margin: auto;
+}
+#donate-questions{
+	padding: 1em;
+	background: #ffffff1a;
+	margin: 0.5em;
+	color: #214a21;
+}
+#donate-questions > h4 {
+	text-align: center;
+	margin: 1em;
+}
+#paypal-payments {
+	padding: 1em;
+	background: #ffffff1a;
+	margin: 0.5em;
+	color: #214a21;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-items: center;
+}
+#paypal-payments > h2, #paypal-payments > img{
+grid-column: 1/-1	
+}
+#paypal-payments > form {
+	border: solid #ffffff80 1px;
+	padding: 1em;
+	margin: 2em;
+	border-radius: 5px;
+}
+#bitcoin-donations {
+	padding: 1em;
+	background: #ffffff1a;
+	margin: 0.5em;
+	color: #214a21;
+	text-align: center;
 }
