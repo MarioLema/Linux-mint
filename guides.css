@@ -1,5 +1,5 @@
 
-.guide-box {
+/* .guide-box {
 	color: #214a21;
 	width: 350px;
 	margin: 1em;
@@ -15,8 +15,8 @@
 }
 .guide-box > p {
 	color: #214a21cc;
-}
-.guide-box > select {
+} */
+.clear-box > select {
 	padding: 0.5em;
 	color: #214a21;
 	background: white;
@@ -25,9 +25,9 @@
 	border-radius: 5px;
 
 }
-.guide-box > h2 {
+/* .guide-box > h2 {
 	text-align: center;
-}
+} */
 .guides-section-container{
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
@@ -42,12 +42,12 @@
 	color: #72be64;
 	font-family: "Montserrat", sans-serif;
 }
-#guides-container {
+/* #guides-container {
 	background: url(images/background-logo.svg) no-repeat;
 	background-position: center;
-}
+} */
 
-#user-guides-container {
+/* #user-guides-container {
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
 	max-width: 70rem;
@@ -60,9 +60,9 @@
 	padding: 1em;
 	color: #72be64;
 	font-family: "Montserrat", sans-serif;
-}
+} */
 
-#older-guides-container {
+/* #older-guides-container {
 	background: #3c9b61;
 	color: white;
 	padding: 1em;
@@ -76,4 +76,4 @@
 	display: block;
 	width: -moz-fit-content;
 	margin: 1em auto;
-}
+} */

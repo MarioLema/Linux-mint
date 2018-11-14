@@ -231,6 +231,7 @@ footer > div {
   background: #3c9b61;
   color: #fffc;
   padding: 2rem;
+  text-align: center;
 }
 .green-container > h1 {
   text-align: center;
@@ -252,6 +253,10 @@ footer > div {
 	border-radius: 10px;
 	background: #fffc;
 	color: #214a21;
+}
+.green-container > p {
+	text-align: center;
+	margin-bottom: 2em;
 }
 
 /*post-containers*/
@@ -284,6 +289,13 @@ footer > div {
   background-position: center;
   padding-bottom: 3em;
 }
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: auto;
+	justify-items: center;
+	width: -moz-fit-content;
+}
 .logo-container >h1{
   text-align: center;
   padding: 1em;
@@ -291,22 +303,42 @@ footer > div {
   font-family: "Montserrat", sans-serif;
   grid-column: 1/-1;
 }
-.clear-box{
-  color: #214a21;
-  width: 350px;
-  margin: 1em;
-  padding: 1em;
-  border-radius: 2px;
-  height: 350px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  font-family: "Roboto", sans-serif;
-  border: solid 1px #214a214d;
+.clear-box {
+	color: #214a21;
+	width: 350px;
+	margin: 1em;
+	padding: 2em 1em;
+	border-radius: 2px;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	font-family: "Roboto", sans-serif;
+	border: solid 1px #214a214d;
 }
-.clear > p {
+.clear-box > p {
   color: #214a21cc;
+}
+
+
+/*grid container*/
+.clear-grid-box {
+	max-width: 70rem;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: auto;
+	justify-items: center;
+	width: -moz-fit-content;
+	padding-bottom: 3em;
+}
+.clear-grid-box > h1{
+	text-align: center;
+	padding: 1em;
+	color: #72be64;
+	font-family: "Montserrat", sans-serif;
+	grid-column: 1/-1;
 }
 /*=====================ABOUT POINT CONTAINERS=======================*/
 .about-point {
@@ -338,4 +370,17 @@ footer > div {
 }
 .about-point > p{
 	font-family: "Mukta", "Liberation Sans", verdana, arial, helvetica, sans-serif;
+}
+table {
+  margin: auto;
+  border-collapse: collapse;
+}
+td {
+  border-bottom: 1px solid #ffffff4d;
+  padding: 1em;
+}
+th {
+	border-bottom: 2px solid #ffffff4d;
+	padding: 1em;
+	font-size: 1.3em;
 }
