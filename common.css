@@ -201,3 +201,141 @@ footer > div {
   margin-right: 1em;
 }
 /*=====================SECTION CONTAINERS=======================*/
+/*white containers*/
+.white-container {
+	max-width: 70rem;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	margin: 50px auto;
+}
+.white-header {
+  grid-column: 1/-1;
+  padding: 1rem;
+}
+.white-header > h1 {
+  color: #72be64;
+  line-height: 3rem;
+}
+.white-header > h3 {
+  color: #214a21;
+}
+.white-header > p{
+  color: #214a21;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+
+/*green containers*/
+.green-container {
+  background: #3c9b61;
+  color: #fffc;
+  padding: 2rem;
+}
+.green-container > h1 {
+  text-align: center;
+  border-bottom: solid #fff6 1px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 2em;
+}
+.green-container > div {
+	max-width: 85rem;
+	margin: auto;
+}
+.green-container > a {
+	width: 250px;
+	display: inherit;
+	text-align: center;
+	margin: 1em auto;
+	font-size: 2em;
+	border-radius: 10px;
+	background: #fffc;
+	color: #214a21;
+}
+
+/*post-containers*/
+.post-container {
+	padding: 1em;
+	background: #ffffff1a;
+	margin: 0.5em;
+	color: #214a21;
+}
+.post-container > h6{
+  line-height: 0.8em;
+}
+.post-container > p{
+  margin: 2.5em 0;
+}
+.post-container > a:first-of-type{
+  color: #214a21;
+}
+.post-container > h4 {
+	text-align: center;
+	margin: 1em;
+}
+
+
+/*logo-container*/
+.logo-container{
+  max-width: 70rem;
+  margin: auto;
+  background: url(images/background-logo.svg) no-repeat;
+  background-position: center;
+  padding-bottom: 3em;
+}
+.logo-container >h1{
+  text-align: center;
+  padding: 1em;
+  color: #72be64;
+  font-family: "Montserrat", sans-serif;
+  grid-column: 1/-1;
+}
+.clear-box{
+  color: #214a21;
+  width: 350px;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 2px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+  border: solid 1px #214a214d;
+}
+.clear > p {
+  color: #214a21cc;
+}
+/*=====================ABOUT POINT CONTAINERS=======================*/
+.about-point {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	justify-content: start;
+	width: 100%;
+}
+.about-point > div {
+  background: #72be64;
+  width: 8rem;
+  height: 8rem;
+  padding: 2rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.about-point > h5 {
+  text-transform: uppercase;
+  color: #214a21;
+  line-height: 2rem;
+}
+
+.about-point > div > img {
+  width: 100%;
+  height: 100%;
+}
+.about-point > p{
+	font-family: "Mukta", "Liberation Sans", verdana, arial, helvetica, sans-serif;
+}

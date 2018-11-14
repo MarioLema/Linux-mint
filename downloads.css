@@ -1,33 +1,10 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
-body {
-  background-color: white;
-  font-family: "Mukta", "Liberation Sans", verdana, arial, helvetica, sans-serif;
-}
-a {
-  text-decoration: none;
-  color: white;
-}
-#versions-download-wrapper {
-  max-width: 70rem;
-  margin: auto;
+
+#versions-download-wrapper{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   justify-items: center;
   width: -moz-fit-content;
-  background: url(images/background-logo.svg) no-repeat;
-  background-position: center;
-  padding-bottom: 3em;
-}
-#versions-download-wrapper > h1 {
-  grid-column: 1/-1;
-  text-align: center;
-  padding: 1em;
-  color: #72be64;
-  font-family: "Montserrat", sans-serif;
 }
 .desktop-version-box {
   color: #214a21;
