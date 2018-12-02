@@ -21,13 +21,13 @@ nav {
 }
 /*NAVIGATION MENU*/
 #nav-menu-wrapper {
-  height: 80px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem 0 1rem 1rem;
-  max-width: 70rem;
-  margin: auto;
+	height: 80px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+	max-width: 70rem;
+	margin: auto;
 }
 #logo-container {
   background: url(images/redesign-logo-text1.svg) no-repeat;
@@ -57,6 +57,18 @@ nav {
 }
 #nav-main-menu > li:nth-of-type(2) > a:hover {
   color: white;
+}
+/*HAMBURGER MENU BUTTON*/
+.menu-button{
+align-self: center;
+display: none;
+}
+.menu-icon{
+	width: 30px;
+	border: solid white 2px;
+	padding: 4px;
+	border-radius: 4px;
+	opacity: 0.9;
 }
 /*HEAD BOX*/
 #header-container {
@@ -124,19 +136,25 @@ nav {
 }
 /*=====================FOOTER=======================*/
 footer {
+	color: #72be64;
+	font-size: 0.7em;
+	display: flex;
+	padding: 2em;
+	align-content: center;
+	align-items: center;
+	justify-content: space-evenly;
+	line-height: 2em;
+	max-width: 1200px;
+	margin: auto;
+}
+.footer-container{
+  width: 100%;
   background: black;
-  color: #72be64;
-  font-size: 0.7em;
-  display: flex;
-  padding: 2em;
-  align-content: center;
-  align-items: center;
-  justify-content: space-around;
-  line-height: 2em;
 }
 footer > div {
   padding: 1em;
   border-left: solid #fff3 1px;
+  max-width:70%;
 }
 .social-icon {
   width: 1.5em;
@@ -349,6 +367,8 @@ footer > div {
 	height: 100%;
 	justify-content: start;
 	width: 100%;
+	max-width: 350px;
+	margin: auto;
 }
 .about-point > div {
   background: #72be64;
@@ -383,4 +403,93 @@ th {
 	border-bottom: 2px solid #ffffff4d;
 	padding: 1em;
 	font-size: 1.3em;
+}
+/*========================SUB MENU HANDLER CLASS ===========================*/
+.active {
+  display: table-cell !important;
+}
+.active-menu{
+  display: flex !important;
+}
+/*========================MEDIA QUERIES ===========================*/
+@media all and (max-width: 1150px) {
+#header-container{
+  margin: 0 1em 0 1em;
+}
+.clear-grid-box {
+  grid-template-columns: repeat(2, 1fr) !important;
+}
+.clear-grid-box > .clear-box:last-child {
+  grid-column: 1/-1;
+}
+.clear-grid-box > .about-point:last-child {
+  grid-column: 1/-1;
+}
+ }
+
+@media all and (max-width: 980px) {
+  #world-image, #manual-image, #media, #desktops-image, #support-graph {
+    display: none;
+  }
+  #page-header {
+    width: 100%;
+    height: auto;
+  }
+  nav {
+    height: 350px;
+    min-height: 20rem;
+  }
+  #nav-main-menu {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    background: #72be64cc;
+    height: 60%;
+    justify-content: space-evenly;
+    z-index: 10;
+    left: 0;
+    top: 80px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.04);
+  }
+  #nav-main-menu > li:nth-of-type(2) {
+    background: none;
+  }
+  .menu-button{
+    display: block;
+    cursor: pointer;
+    }
+  .green-container > div {
+    display: block;
+  }
+ }
+@media all and (max-width: 736px) {
+  #page-header > h1 {
+    font-size: 2em;
+  }
+  #page-header > p {
+    max-width: 100%;
+  }
+  footer {
+    flex-direction: column;
+  }
+  footer > div {
+    padding: 1em;
+    border-left: none;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+  }
+  #footer-logo {
+    display: none;
+  }
+  .grid-container, .clear-grid-box, .grid-box {
+    display: block !important;
+  }
+ }
+@media all and (max-width: 480px) { 
+  #paypal-payments {
+    display: flex;
+    flex-direction: column;
+  }
+
 }

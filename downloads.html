@@ -25,6 +25,7 @@
                     <li><a href='guides.html'>GUIDES</a></li>
                     <li><a href='about.html'>ABOUT US</a></li>
             </ul>
+            <buttton class="menu-button" onclick="subHeaderMenuHandler('nav-main-menu')"><img class="menu-icon" src="images/icons/menu-button-of-three-horizontal-lines.svg" alt=""></button>
         </div>
         <div id='leafs-decoration'></div>
         <div id='header-container'>
@@ -122,7 +123,7 @@
                         <td>Tara</td>
                         <td>Ubuntu Bionic</td>
                         <td>Long term support release (LTS), supported until April 2023.</td>
-                        <td><button class='clear-button big-button'>Links</button></td>
+                        <td><button class='clear-button big-button' onclick="subMenuHandler('tara-links')">Links</button></td>
                     </tr>
                     <tr>
                         <td colspan="5" id="tara-links">
@@ -147,7 +148,7 @@
                         <td>Sylvia</td>
                         <td>Ubuntu Xenial</td>
                         <td>Long term support release (LTS), supported until April 2021.</td>
-                        <td><button class='clear-button big-button'>Links</button></td>
+                        <td><button class='clear-button big-button' onclick="subMenuHandler('sylvia-links')">Links</button></td>
                     </tr>
                     <tr>
                         <td colspan="5" id="sylvia-links">
@@ -176,7 +177,7 @@
                         <td>Sonya</td>
                         <td>Ubuntu Xenial</td>
                         <td>Long term support release (LTS), supported until April 2021.</td>
-                        <td><button class='clear-button big-button'>Links</button></td>
+                        <td><button class='clear-button big-button' onclick="subMenuHandler('sonya-links')">Links</button></td>
                     </tr>
                     <tr>
                         <td colspan="5" id="sonya-links">
@@ -205,7 +206,7 @@
                         <td>Serena</td>
                         <td>Ubuntu Xenial</td>
                         <td>Long term support release (LTS), supported until April 2021.</td>
-                        <td><button class='clear-button big-button'>Links</button></td>
+                        <td><button class='clear-button big-button' onclick="subMenuHandler('serena-links')">Links</button></td>
                     </tr>
                     <tr>
                         <td colspan="5" id="serena-links">
@@ -234,7 +235,7 @@
                         <td>Sarah</td>
                         <td>Ubuntu Xenial</td>
                         <td>Long term support release (LTS), supported until April 2021.</td>
-                        <td><button class='clear-button big-button'>Links</button></td>
+                        <td><button class='clear-button big-button' onclick="subMenuHandler('sarah-links')">Links</button></td>
                     </tr>
                     <tr>
                         <td colspan="5" id="sarah-links">
@@ -263,7 +264,7 @@
                         <td>Rosa</td>
                         <td>Ubuntu Trusty</td>
                         <td>Long term support release (LTS), supported until April 2019.</td>
-                        <td><button class='clear-button big-button'>Links</button></td>
+                        <td><button class='clear-button big-button' onclick="subMenuHandler('rosa-links')">Links</button></td>
                     </tr>
                     <tr>
                         <td colspan="5" id='rosa-links'>
@@ -304,7 +305,7 @@
                         <td>Rafaela</td>
                         <td>Ubuntu Trusty</td>
                         <td>Long term support release (LTS), supported until April 2019.</td>
-                        <td><button class='clear-button big-button'>Links</button></td>
+                        <td><button class='clear-button big-button' onclick="subMenuHandler('rafaela-links')">Links</button></td>
                     </tr>
                     <tr>
                         <td colspan="5" id='rafaela-links'>
@@ -345,7 +346,7 @@
                         <td>Rebecca</td>
                         <td>Ubuntu Trusty</td>
                         <td>Long term support release (LTS), supported until April 2019.</td>
-                        <td><button class='clear-button big-button'>Links</button></td>
+                        <td><button class='clear-button big-button' onclick="subMenuHandler('rebecca-links')">Links</button></td>
                     </tr>
                     <tr>
                         <td colspan="5" id='rebecca-links'>
@@ -386,7 +387,7 @@
                         <td>Quiana</td>
                         <td>Ubuntu Trusty</td>
                         <td>Long term support release (LTS), supported until April 2019.</td>
-                        <td><button class='clear-button big-button'>Links</button></td>
+                        <td><button class='clear-button big-button' onclick="subMenuHandler('quiana-links')">Links</button></td>
                     </tr>
                     <tr>
                         <td colspan="5" id='quiana-links'>
@@ -427,7 +428,7 @@
                         <td>Cindy</td>
                         <td>Debian Stretch</td>
                         <td>Long term support release (LTS).</td>
-                        <td><button class='clear-button big-button'>Links</button></td>
+                        <td><button class='clear-button big-button' onclick="subMenuHandler('cindy-links')">Links</button></td>
                     </tr>
                     <tr>
                         <td colspan="5" id='cindy-links'>
@@ -454,30 +455,32 @@
 
 
 
-    <footer>
-        <div id='footer-logo'></div>
-        <div>
-            <p>Some of the packages we distribute are under the GPL. If you want to access their source code you can
-                use
-                the apt-get source command.<br>If you can't find what you're looking for please write to
-                root@linuxmint.com
-                and we'll provide the source to you.
-
-            </p>
-            <p>Linux Mint is copyrighted 2006 and trademarked through the Linux Mark Institute. All rights reserved.
-                Linux®
-                is the registered trademark of Linus Torvalds in the U.S. and other countries.</p>
-        </div>
-        <div id='social-container'>
-            <p>Follow us</p>
-            <a href="https://www.facebook.com/pages/Linux-Mint/185238108180410" target="_blank"><img class='social-icon'
-                    src="images/icons/facebook.svg" alt=""></a>
-            <a href="https://twitter.com/linux_mint" target="_blank"><img class='social-icon' src="images/icons/twitter.svg"
-                    alt=""></a>
-            <a href="http://blog.linuxmint.com/?feed=rss2" target="_blank"><img class='social-icon' src="images/icons/rss.svg"
-                    alt=""></a>
-        </div>
-    </footer>
+    <div class="footer-container">
+            <footer>
+            <div id='footer-logo'></div>
+            <div>
+                <p>Some of the packages we distribute are under the GPL. If you want to access their source code you can
+                    use
+                    the apt-get source command.<br>If you can't find what you're looking for please write to
+                    root@linuxmint.com
+                    and we'll provide the source to you.
+    
+                </p>
+                <p>Linux Mint is copyrighted 2006 and trademarked through the Linux Mark Institute. All rights reserved.
+                    Linux®
+                    is the registered trademark of Linus Torvalds in the U.S. and other countries.</p>
+            </div>
+            <div id='social-container'>
+                <p>Follow us</p>
+                <a href="https://www.facebook.com/pages/Linux-Mint/185238108180410" target="_blank"><img class='social-icon'
+                        src="images/icons/facebook.svg" alt=""></a>
+                <a href="https://twitter.com/linux_mint" target="_blank"><img class='social-icon' src="images/icons/twitter.svg"
+                        alt=""></a>
+                <a href="http://blog.linuxmint.com/?feed=rss2" target="_blank"><img class='social-icon' src="images/icons/rss.svg"
+                        alt=""></a>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>

@@ -67,3 +67,53 @@
 #bitcoin-donations {
 	text-align: center;
 }
+/*========================MEDIA QUERIES ===========================*/
+@media all and (max-width: 980px) {
+  #support-graph {
+    display: none;
+  }
+  #point1 {
+    grid-column: 1/4;
+  }
+  #point6 {
+    grid-column: 1/4;
+  }
+  #point2 {
+    grid-column: 4/7;
+  }
+  #point7 {
+    grid-column: 4/7;
+  }
+  #point3 {
+    grid-column: 1/7;
+  }
+  #point8 {
+    grid-column: 1/7;
+  }
+ }
+
+ @media all and (max-width: 980px) {
+  #support-graph {
+    display: none;
+  }
+  #page-header {
+    width: 100%;
+    height: auto;
+  }
+  nav {
+    height: 350px;
+    min-height: 20rem;
+  }
+  #nav-main-menu {
+    display: none;
+  }
+  .green-container > div {
+    display: block;
+  }
+ }
+
+@media all and (max-width: 736px) {
+  #paypal-payments > form {
+    margin: 1em;
+  }
+ }
