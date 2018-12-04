@@ -21,13 +21,13 @@ nav {
 }
 /*NAVIGATION MENU*/
 #nav-menu-wrapper {
-	height: 80px;
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	padding: 1rem;
-	max-width: 70rem;
-	margin: auto;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  max-width: 70rem;
+  margin: auto;
 }
 #logo-container {
   background: url(images/redesign-logo-text1.svg) no-repeat;
@@ -59,16 +59,16 @@ nav {
   color: white;
 }
 /*HAMBURGER MENU BUTTON*/
-.menu-button{
-align-self: center;
-display: none;
+.menu-button {
+  align-self: center;
+  display: none;
 }
-.menu-icon{
-	width: 30px;
-	border: solid white 2px;
-	padding: 4px;
-	border-radius: 4px;
-	opacity: 0.9;
+.menu-icon {
+  width: 30px;
+  border: solid white 2px;
+  padding: 4px;
+  border-radius: 4px;
+  opacity: 0.9;
 }
 /*HEAD BOX*/
 #header-container {
@@ -120,8 +120,7 @@ display: none;
 }
 /*RIGHT SIDE MEDIA*/
 #media {
-  width: 400px;
-  height: 250px;
+  width: 45%;
   background: #4a3e3e;
 }
 #desktops-image {
@@ -136,25 +135,25 @@ display: none;
 }
 /*=====================FOOTER=======================*/
 footer {
-	color: #72be64;
-	font-size: 0.7em;
-	display: flex;
-	padding: 2em;
-	align-content: center;
-	align-items: center;
-	justify-content: space-evenly;
-	line-height: 2em;
-	max-width: 1200px;
-	margin: auto;
+  color: #72be64;
+  font-size: 0.7em;
+  display: flex;
+  padding: 2em;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  line-height: 2em;
+  max-width: 1200px;
+  margin: auto;
 }
-.footer-container{
+.footer-container {
   width: 100%;
   background: black;
 }
 footer > div {
   padding: 1em;
   border-left: solid #fff3 1px;
-  max-width:70%;
+  max-width: 70%;
 }
 .social-icon {
   width: 1.5em;
@@ -221,10 +220,10 @@ footer > div {
 /*=====================SECTION CONTAINERS=======================*/
 /*white containers*/
 .white-container {
-	max-width: 70rem;
-	text-align: center;
-	font-family: "Montserrat", sans-serif;
-	margin: 50px auto;
+  max-width: 70rem;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin: 50px auto;
 }
 .white-header {
   grid-column: 1/-1;
@@ -237,12 +236,11 @@ footer > div {
 .white-header > h3 {
   color: #214a21;
 }
-.white-header > p{
+.white-header > p {
   color: #214a21;
   padding-bottom: 1em;
   text-align: center;
 }
-
 
 /*green containers*/
 .green-container {
@@ -259,48 +257,47 @@ footer > div {
   margin-bottom: 2em;
 }
 .green-container > div {
-	max-width: 85rem;
-	margin: auto;
+  max-width: 85rem;
+  margin: auto;
 }
 .green-container > a {
-	width: 250px;
-	display: inherit;
-	text-align: center;
-	margin: 1em auto;
-	font-size: 2em;
-	border-radius: 10px;
-	background: #fffc;
-	color: #214a21;
+  width: 250px;
+  display: inherit;
+  text-align: center;
+  margin: 1em auto;
+  font-size: 2em;
+  border-radius: 10px;
+  background: #fffc;
+  color: #214a21;
 }
 .green-container > p {
-	text-align: center;
-	margin-bottom: 2em;
+  text-align: center;
+  margin-bottom: 2em;
 }
 
 /*post-containers*/
 .post-container {
-	padding: 1em;
-	background: #ffffff1a;
-	margin: 0.5em;
-	color: #214a21;
+  padding: 1em;
+  background: #ffffff1a;
+  margin: 0.5em;
+  color: #214a21;
 }
-.post-container > h6{
+.post-container > h6 {
   line-height: 0.8em;
 }
-.post-container > p{
+.post-container > p {
   margin: 2.5em 0;
 }
-.post-container > a:first-of-type{
+.post-container > a:first-of-type {
   color: #214a21;
 }
 .post-container > h4 {
-	text-align: center;
-	margin: 1em;
+  text-align: center;
+  margin: 1em;
 }
 
-
 /*logo-container*/
-.logo-container{
+.logo-container {
   max-width: 70rem;
   margin: auto;
   background: url(images/background-logo.svg) no-repeat;
@@ -308,13 +305,13 @@ footer > div {
   padding-bottom: 3em;
 }
 .grid-container {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: auto;
-	justify-items: center;
-	width: -moz-fit-content;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  justify-items: center;
+  width: -moz-fit-content;
 }
-.logo-container >h1{
+.logo-container > h1 {
   text-align: center;
   padding: 1em;
   color: #72be64;
@@ -322,53 +319,52 @@ footer > div {
   grid-column: 1/-1;
 }
 .clear-box {
-	color: #214a21;
-	width: 350px;
-	margin: 1em;
-	padding: 2em 1em;
-	border-radius: 2px;
-	height: 350px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
-	font-family: "Roboto", sans-serif;
-	border: solid 1px #214a214d;
+  color: #214a21;
+  width: 350px;
+  margin: 1em;
+  padding: 2em 1em;
+  border-radius: 2px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  border: solid 1px #214a214d;
 }
 .clear-box > p {
   color: #214a21cc;
 }
 
-
 /*grid container*/
 .clear-grid-box {
-	max-width: 70rem;
-	margin: auto;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: auto;
-	justify-items: center;
-	width: -moz-fit-content;
-	padding-bottom: 3em;
+  max-width: 70rem;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  justify-items: center;
+  width: -moz-fit-content;
+  padding-bottom: 3em;
 }
-.clear-grid-box > h1{
-	text-align: center;
-	padding: 1em;
-	color: #72be64;
-	font-family: "Montserrat", sans-serif;
-	grid-column: 1/-1;
+.clear-grid-box > h1 {
+  text-align: center;
+  padding: 1em;
+  color: #72be64;
+  font-family: "Montserrat", sans-serif;
+  grid-column: 1/-1;
 }
 /*=====================ABOUT POINT CONTAINERS=======================*/
 .about-point {
-	padding: 1rem;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	height: 100%;
-	justify-content: start;
-	width: 100%;
-	max-width: 350px;
-	margin: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: start;
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
 }
 .about-point > div {
   background: #72be64;
@@ -388,8 +384,8 @@ footer > div {
   width: 100%;
   height: 100%;
 }
-.about-point > p{
-	font-family: "Mukta", "Liberation Sans", verdana, arial, helvetica, sans-serif;
+.about-point > p {
+  font-family: "Mukta", "Liberation Sans", verdana, arial, helvetica, sans-serif;
 }
 table {
   margin: auto;
@@ -400,35 +396,39 @@ td {
   padding: 1em;
 }
 th {
-	border-bottom: 2px solid #ffffff4d;
-	padding: 1em;
-	font-size: 1.3em;
+  border-bottom: 2px solid #ffffff4d;
+  padding: 1em;
+  font-size: 1.3em;
 }
 /*========================SUB MENU HANDLER CLASS ===========================*/
 .active {
   display: table-cell !important;
 }
-.active-menu{
+.active-menu {
   display: flex !important;
 }
 /*========================MEDIA QUERIES ===========================*/
 @media all and (max-width: 1150px) {
-#header-container{
-  margin: 0 1em 0 1em;
+  #header-container {
+    margin: 0 1em 0 1em;
+  }
+  .clear-grid-box {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .clear-grid-box > .clear-box:last-child {
+    grid-column: 1/-1;
+  }
+  .clear-grid-box > .about-point:last-child {
+    grid-column: 1/-1;
+  }
 }
-.clear-grid-box {
-  grid-template-columns: repeat(2, 1fr) !important;
-}
-.clear-grid-box > .clear-box:last-child {
-  grid-column: 1/-1;
-}
-.clear-grid-box > .about-point:last-child {
-  grid-column: 1/-1;
-}
- }
 
 @media all and (max-width: 980px) {
-  #world-image, #manual-image, #media, #desktops-image, #support-graph {
+  #world-image,
+  #manual-image,
+  #media,
+  #desktops-image,
+  #support-graph {
     display: none;
   }
   #page-header {
@@ -454,14 +454,14 @@ th {
   #nav-main-menu > li:nth-of-type(2) {
     background: none;
   }
-  .menu-button{
+  .menu-button {
     display: block;
     cursor: pointer;
-    }
+  }
   .green-container > div {
     display: block;
   }
- }
+}
 @media all and (max-width: 736px) {
   #page-header > h1 {
     font-size: 2em;
@@ -482,14 +482,15 @@ th {
   #footer-logo {
     display: none;
   }
-  .grid-container, .clear-grid-box, .grid-box {
+  .grid-container,
+  .clear-grid-box,
+  .grid-box {
     display: block !important;
   }
- }
-@media all and (max-width: 480px) { 
+}
+@media all and (max-width: 480px) {
   #paypal-payments {
     display: flex;
     flex-direction: column;
   }
-
 }

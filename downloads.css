@@ -49,3 +49,8 @@
   border: none;
   display: none;
 }
+@media all and (max-width: 585px) {
+  .green-container {
+    display: none;
+  }
+}

@@ -6,21 +6,21 @@
   justify-items: center;
 }
 .green-container > div {
-	display: flex;
+  display: flex;
 }
 /*========================MEDIA QUERIES ===========================*/
-  @media all and (max-width: 980px) {
-    #about-container {
-      grid-template-columns: repeat(3, 1fr);
-    }
-   }
-  @media all and (max-width: 736px) {
-    #about-container {
-      grid-template-columns: repeat(2, 1fr);
-    }
-   }
-  @media all and (max-width: 480px) { 
-    #about-container {
-      grid-template-columns: repeat(1, 1fr);
-    }
+@media all and (max-width: 980px) {
+  #about-container {
+    grid-template-columns: repeat(3, 1fr);
   }
+}
+@media all and (max-width: 736px) {
+  #about-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media all and (max-width: 480px) {
+  #about-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
