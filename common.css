@@ -1,7 +1,8 @@
 /*=====================PAGE SET UP=======================*/
 * {
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 body {
   background-color: white;
@@ -15,7 +16,8 @@ a {
 /*=====================NAVIGATION HEADER=======================*/
 nav {
   height: 500px;
-  background: linear-gradient(to top, #6fe76f, #1a3309);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgb(111, 231, 111)), to(rgb(26, 51, 9)));
+  background: linear-gradient(to top, rgb(111, 231, 111), rgb(26, 51, 9));
   position: relative;
   min-height: 33rem;
 }
@@ -23,8 +25,12 @@ nav {
 #nav-menu-wrapper {
   height: 80px;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 1rem;
   max-width: 70rem;
   margin: auto;
@@ -36,31 +42,38 @@ nav {
   background-size: contain;
 }
 #nav-main-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: 100%;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   list-style: none;
 }
 #nav-main-menu > li > a:hover {
-  color: #86be38;
+  color: rgb(134, 190, 56);
 }
 /*DOWNLOAD MENU BUTTON*/
 #nav-main-menu > li:nth-of-type(2) {
-  background: #72be64;
+  background: rgb(114, 190, 100);
   padding: 5px 10px;
   border-radius: 5px;
 }
 #nav-main-menu > li:nth-of-type(2):hover {
-  background: #58994c;
+  background: rgb(88, 153, 76);
 }
 #nav-main-menu > li:nth-of-type(2) > a:hover {
   color: white;
 }
 /*HAMBURGER MENU BUTTON*/
 .menu-button {
-  align-self: center;
+  -ms-flex-item-align: center;
+      align-self: center;
   display: none;
 }
 .menu-icon {
@@ -73,10 +86,16 @@ nav {
 /*HEAD BOX*/
 #header-container {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 75%;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   max-width: 70rem;
   margin: auto;
 }
@@ -87,10 +106,18 @@ nav {
   padding: 1rem;
   width: 50%;
   height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 #page-header > a {
   margin: 1em 0 0 2em;
@@ -103,7 +130,7 @@ nav {
   margin-bottom: 2em;
 }
 #page-header > p {
-  color: #ffffffb3;
+  color: rgba(255, 255, 255, 0.702);
   max-width: 75%;
 }
 /*LEAFS BACKGROUND*/
@@ -121,7 +148,7 @@ nav {
 /*RIGHT SIDE MEDIA*/
 #media {
   width: 45%;
-  background: #4a3e3e;
+  background: rgb(74, 62, 62);
 }
 #desktops-image {
   width: 25%;
@@ -135,13 +162,20 @@ nav {
 }
 /*=====================FOOTER=======================*/
 footer {
-  color: #72be64;
+  color: rgb(114, 190, 100);
   font-size: 0.7em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 2em;
-  align-content: center;
-  align-items: center;
-  justify-content: space-evenly;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   line-height: 2em;
   max-width: 1200px;
   margin: auto;
@@ -177,20 +211,20 @@ footer > div {
 /*=====================BUTTONS=======================*/
 /*clear buttons with white border for green backgrounds*/
 .clear-button {
-  border: solid #fff6 1px;
+  border: solid rgba(255, 255, 255, 0.4) 1px;
   padding: 5px;
   border-radius: 5px;
   background: none;
   color: white;
 }
 .clear-button:hover {
-  background: #ffffff1a;
+  background: rgba(255, 255, 255, 0.102);
 }
 /*green regular buttons*/
 .green-button {
   color: white;
   border-radius: 5px;
-  background: #72be64;
+  background: rgb(114, 190, 100);
   margin: 1em;
   padding: 7px 15px;
   font-size: 1em;
@@ -198,8 +232,8 @@ footer > div {
 }
 /*clear buttons on green for white backgrounds*/
 .clear-green-button {
-  color: #214a21;
-  border: solid #214a2166 1px;
+  color: rgb(33, 74, 33);
+  border: solid rgba(33, 74, 33, 0.4) 1px;
   padding: 5px 10px;
   border-radius: 5px;
   margin: 0.5em;
@@ -230,28 +264,28 @@ footer > div {
   padding: 1rem;
 }
 .white-header > h1 {
-  color: #72be64;
+  color: rgb(114, 190, 100);
   line-height: 3rem;
 }
 .white-header > h3 {
-  color: #214a21;
+  color: rgb(33, 74, 33);
 }
 .white-header > p {
-  color: #214a21;
+  color: rgb(33, 74, 33);
   padding-bottom: 1em;
   text-align: center;
 }
 
 /*green containers*/
 .green-container {
-  background: #3c9b61;
-  color: #fffc;
+  background: rgb(60, 155, 97);
+  color: rgba(255, 255, 255, 0.8);
   padding: 2rem;
   text-align: center;
 }
 .green-container > h1 {
   text-align: center;
-  border-bottom: solid #fff6 1px;
+  border-bottom: solid rgba(255, 255, 255, 0.4) 1px;
   width: 80%;
   margin: auto;
   margin-bottom: 2em;
@@ -267,8 +301,8 @@ footer > div {
   margin: 1em auto;
   font-size: 2em;
   border-radius: 10px;
-  background: #fffc;
-  color: #214a21;
+  background: rgba(255, 255, 255, 0.8);
+  color: rgb(33, 74, 33);
 }
 .green-container > p {
   text-align: center;
@@ -278,9 +312,9 @@ footer > div {
 /*post-containers*/
 .post-container {
   padding: 1em;
-  background: #ffffff1a;
+  background: rgba(255, 255, 255, 0.102);
   margin: 0.5em;
-  color: #214a21;
+  color: rgb(33, 74, 33);
 }
 .post-container > h6 {
   line-height: 0.8em;
@@ -289,7 +323,7 @@ footer > div {
   margin: 2.5em 0;
 }
 .post-container > a:first-of-type {
-  color: #214a21;
+  color: rgb(33, 74, 33);
 }
 .post-container > h4 {
   text-align: center;
@@ -314,26 +348,35 @@ footer > div {
 .logo-container > h1 {
   text-align: center;
   padding: 1em;
-  color: #72be64;
+  color: rgb(114, 190, 100);
   font-family: "Montserrat", sans-serif;
   grid-column: 1/-1;
 }
 .clear-box {
-  color: #214a21;
+  color: rgb(33, 74, 33);
   width: 350px;
   margin: 1em;
   padding: 2em 1em;
   border-radius: 2px;
   height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   font-family: "Roboto", sans-serif;
-  border: solid 1px #214a214d;
+  border: solid 1px rgba(33, 74, 33, 0.302);
 }
 .clear-box > p {
-  color: #214a21cc;
+  color: rgba(33, 74, 33, 0.8);
 }
 
 /*grid container*/
@@ -350,24 +393,33 @@ footer > div {
 .clear-grid-box > h1 {
   text-align: center;
   padding: 1em;
-  color: #72be64;
+  color: rgb(114, 190, 100);
   font-family: "Montserrat", sans-serif;
   grid-column: 1/-1;
 }
 /*=====================ABOUT POINT CONTAINERS=======================*/
 .about-point {
   padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100%;
-  justify-content: start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   width: 100%;
   max-width: 350px;
   margin: auto;
 }
 .about-point > div {
-  background: #72be64;
+  background: rgb(114, 190, 100);
   width: 8rem;
   height: 8rem;
   padding: 2rem;
@@ -376,7 +428,7 @@ footer > div {
 }
 .about-point > h5 {
   text-transform: uppercase;
-  color: #214a21;
+  color: rgb(33, 74, 33);
   line-height: 2rem;
 }
 
@@ -405,6 +457,8 @@ th {
   display: table-cell !important;
 }
 .active-menu {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
   display: flex !important;
 }
 /*========================MEDIA QUERIES ===========================*/
@@ -442,14 +496,20 @@ th {
   #nav-main-menu {
     display: none;
     position: absolute;
-    flex-direction: column;
-    background: #72be64cc;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: rgba(114, 190, 100, 0.8);
     height: 60%;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     z-index: 10;
     left: 0;
     top: 80px;
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.04);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.04);
+            box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.04);
   }
   #nav-main-menu > li:nth-of-type(2) {
     background: none;
@@ -470,7 +530,10 @@ th {
     max-width: 100%;
   }
   footer {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   footer > div {
     padding: 1em;
@@ -490,7 +553,12 @@ th {
 }
 @media all and (max-width: 480px) {
   #paypal-payments {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }

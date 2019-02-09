@@ -1,6 +1,6 @@
 .clear-box > select {
   padding: 0.5em;
-  color: #214a21;
+  color: rgb(33, 74, 33);
   background: white;
   font-weight: bold;
   border: solid 1px #214a2166;
@@ -10,6 +10,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   max-width: 70rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
   width: max-content;
   margin: auto;
 }
@@ -17,6 +19,6 @@
   grid-column: 1/-1;
   text-align: center;
   padding: 1em;
-  color: #72be64;
+  color: rgb(114, 190, 100);
   font-family: "Montserrat", sans-serif;
 }

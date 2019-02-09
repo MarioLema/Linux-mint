@@ -2,7 +2,9 @@
   border: solid black 2px;
 }
 .about-point {
-  justify-content: space-between !important;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
   height: 450px !important;
 }
 #point1 {
@@ -51,14 +53,15 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
-  align-content: space-evenly;
+  -ms-flex-line-pack: space-evenly;
+      align-content: space-evenly;
 }
 #paypal-payments > h2,
 #paypal-payments > img {
   grid-column: 1/-1;
 }
 #paypal-payments > form {
-  border: solid #ffffff80 1px;
+  border: solid rgba(255, 255, 255, 0.502) 1px;
   padding: 1em;
   margin: 2em;
   border-radius: 5px;

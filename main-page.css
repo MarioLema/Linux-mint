@@ -2,10 +2,14 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   justify-items: center;
 }
 .green-container > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 /*========================MEDIA QUERIES ===========================*/
