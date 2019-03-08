@@ -1,0 +1,26 @@
+{
+  "name": "linux-mint",
+  "version": "1.0.0",
+  "description": "This mock website is inspired by the Linux Mint Cinnamon Desktop own website. It is intended to continue with the new style and revamp a now outdated look in the actual Linux Mint OS website.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarioLema/Linux-mint.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.4.9",
+    "concat": "^1.0.3",
+    "node-sass": "^4.11.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^6.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/MarioLema/Linux-mint/issues"
+  },
+  "homepage": "https://github.com/MarioLema/Linux-mint#readme"
+}
